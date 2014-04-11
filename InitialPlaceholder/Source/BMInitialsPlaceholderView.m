@@ -144,7 +144,7 @@
                                                              NSParagraphStyleAttributeName : style}];
     
     UIImage *outImage = UIGraphicsGetImageFromCurrentImageContext();
-    
+    UIGraphicsEndImageContext();
     _cachedVisualRepresentation = outImage;
     [self setNeedsDisplay];
 }
