@@ -72,7 +72,7 @@
 
 - (void)setTextColor:(UIColor *)textColor {
     _textColor = textColor;
-    [self generateCachedVisualRepresentation];
+    //[self generateCachedVisualRepresentation];
 }
 
 - (UIColor *)textColor {
@@ -81,7 +81,7 @@
 
 - (void)setCircleColor:(UIColor *)circleColor {
     _circleColor = circleColor;
-    [self generateCachedVisualRepresentation];
+    //[self generateCachedVisualRepresentation];
 }
 
 - (UIColor *)circleColor {
@@ -90,7 +90,7 @@
 
 - (void)setFont:(UIFont *)font {
     _font = font;
-    [self generateCachedVisualRepresentation];
+    //[self generateCachedVisualRepresentation];
 }
 
 - (UIFont *)font {
